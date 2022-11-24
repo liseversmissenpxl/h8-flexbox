@@ -4,23 +4,60 @@
     box-sizing: border-box;
     font-family: arial, sans-serif;
 }
+
 header {
     background-color: darkblue;
     color: #fff;
     padding: 1rem;
 }
+
 main {
     background-color: #ccc;
     height: 600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
 }
+
 main article {
     background-color: #fff;
     margin: 1rem;
     padding: 1rem;
+    /* width: 250px; */
 }
+
 footer {
     background-color: #434372;
     color: #fff;
     text-align: center;
     padding: 1rem;
 }
+
+#item1 {
+    /* order: 3; */
+    /* align-self: flex-start; */
+   /* flex-shrink: 1; */
+   /* flex-grow: 1; */
+    flex-basis: 200px;
+}
+
+#item2 {
+    /* order: 1; */
+   /* flex-shrink: 1; */
+   /* flex-grow: 2; */
+    flex-basis: 200px;
+}
+
+#item3 {
+    /* order: 2; */
+   /* flex-shrink: 3; */
+   /* flex-grow: 1; */
+    flex-basis: 200px;
+}
+
+/* flex-shrink */
+/* flex-grow */
+/* flex-basis */
+/* flex */
